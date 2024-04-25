@@ -1,0 +1,213 @@
+@media all {
+    /*gerais*/
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  
+    body::-webkit-scrollbar {
+      width: 0px;
+      height: 0px;
+    }
+  
+    html {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color:#00212e ;
+    }
+
+    .transparencia{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.521);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        cursor: pointer;
+
+        display: none;
+    }
+
+    /*Barra lateral*/
+
+    .BarraLateral{
+        position: fixed;
+        z-index: 2;
+        top: 10px;
+        bottom: 10px;
+        right: 10px;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #012E40;
+        width:150px;
+        box-shadow: 3px 3px 15px black;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        display: none;
+    }
+
+    #IconClose{
+        display: flex;
+        align-self: end;
+        color: #F28705;
+        cursor: pointer;
+        background-color: #00212e;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    #IconClose:hover{
+        background-color: #002b3c; 
+        border: 0.4px solid white;
+    }
+
+    .BarraLateral ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        height: 100%;
+        justify-content: space-around;
+        align-items: end;
+    }
+
+    .BarraLateral a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .BarraLateral a:hover{
+        color: #F28705;
+    }
+
+  
+    /*header - section*/
+
+    .CapaInicialDoSite{
+        background-image: url(./img/imagemcapa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 600px;
+        width: 100vw;
+    }
+
+    /*header - cabeçalho*/
+
+    .CapaInicialDoSite_Cabeçalho{
+        backdrop-filter: blur(8px);
+        border-radius: 50px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 30px;
+        justify-content: space-between;
+        box-shadow: 3px 3px 15px black;
+    }
+
+    .CapaInicialDoSite_Cabeçalho ul{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style: none;
+    }
+
+    .CapaInicialDoSite_Cabeçalho a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .CapaInicialDoSite_Cabeçalho a:hover{
+        color: #F28705;
+    }
+
+    #iconMenu{
+        cursor: pointer;
+        color: #F28705;
+        display: none;
+    }
+
+    #iconMenu:hover{
+        color: #ac640c;
+    }
+
+    /*header - corpo*/
+
+    .CapaInicialDoSite_Corpo{
+        border-radius: 20px;
+        margin-top: 100px;
+        width: 80%;
+        max-width: 600px;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        color: white;
+    }
+
+    .CapaInicialDoSite_Corpo h1{
+        text-shadow: 3px 3px 3px black;
+    }
+
+    .CapaInicialDoSite_Corpo>p{
+        color: rgba(255, 255, 255, 0.819);
+        font-size: 14px;
+    }
+
+    .CapaInicialDoSite_Corpo_Valor strong{
+        font-size: 40px;
+        margin: 10px;
+        color: #03A696;
+        text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    }
+
+    .CapaInicialDoSite_Corpo_Valor button{
+        background-color: #F28705;
+        outline: none;
+        border: none;
+        padding: 5px 15px;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-shadow: 3px 3px 13px rgb(0, 0, 0);
+    }
+
+    .CapaInicialDoSite_Corpo_Valor button:hover{
+        background-color: #e07b00;
+    }
+
+    .CapaInicialDoSite_Corpo_Valor a{
+        text-decoration: none;
+        color: #012E40;
+        font-weight: bold;
+    }
+  
+    /*main*/
+  
+    /*footer*/
+}
+  
+  /* Estilos para tablets*/
+@media (max-width: 1100px) {}
+  
+  /*Estilos para dispositivos móveis*/
+@media (max-width: 568px) {
+
+    /*header - cabeçalho*/
+
+    .CapaInicialDoSite_Cabeçalho ul{
+        display: none;
+    }
+
+    #iconMenu{
+        cursor: pointer;
+        color: #F28705;
+        display: block;
+    }
+}
