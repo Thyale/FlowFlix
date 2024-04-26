@@ -188,17 +188,12 @@
         color: #012E40;
         font-weight: bold;
     }
-  
-    /*main*/
 
-    main{
-        width: 90%;
-        margin: auto;
-    }
 
     /*main - Vantagens*/
 
     #Vantagens{
+        margin-left: 20px;
         margin-top: 2em;
         border-left: 1px solid rgba(255, 255, 255, 0.356);
         color: white;
@@ -278,6 +273,7 @@
         display:flex;
         flex-direction: column;
         padding: 20px 30px;
+        margin-left: 20px;
     }
 
     #Comentarios>p{
@@ -363,6 +359,79 @@
         border-radius: 50%;
     }
 
+    /*main - Destaques*/
+
+    #Destaques{
+        margin-top: 2em;
+        background-image: url(./img/pexels-michelangelo-buonarroti-8728560.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        padding: 20px 30px;
+    }
+
+    .ptrailer{
+        color: #F28705;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .pdestaque{
+        background-color: #003042;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        width: 100px;
+        margin-bottom: 1em;
+        color: white;
+    }
+
+    #Destaques h1{
+        font-size: 20px;
+        color: white;
+    }
+
+    .Destaques_DivGeralDosDestaques{
+        background-color: hsl(33, 87%, 36%);
+        margin-top: 1.4em;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .Destaques_Div{
+        width: 240px;
+        height: 345px;
+        position: relative;
+    }
+
+    .CapaDoVideo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 1s ease-in-out;
+    }
+
+    .CapaDoVideo:hover {
+        transform: scale(1.03); 
+    }
+
+    iframe{
+        border-radius: 10px;
+    }
+
+    .Destaques_Div p{
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        color: #00212e;
+        background-color: #e07b00;
+        padding: 2px 8px;
+        border-radius: 10px;
+    }
 
     /*footer*/
 }
