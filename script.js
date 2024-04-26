@@ -10,29 +10,44 @@ function FecharBarraLateral(){
 }
 
 
-var CoverDoVideoStranger = window.document.querySelector("img#CapaDeStranger");
-var pnomestranger = window.document.querySelectorAll("p.pnomepnomestranger")
-
 function AbrirVideoStranger(){
-    CoverDoVideoStranger.style.display = "none"
-    pnomestranger.style.display = "none"
+    let CapaDeStranger = window.document.querySelector("img#CapaDeStranger")
+    CapaDeStranger.style.display = "none"
+    let VideoStranger = window.document.querySelector("iframe.VideoStranger")
+    VideoStranger.style.display = "block"
 }
-
-function FecharVideoStranger(){
-    CoverDoVideoStranger.style.display = "block"
-    pnomestranger.style.display = "block"
-}
-
-
-var CoverDoVideoManifest = window.document.querySelector("img#CapaDeManifest");
-var pnomeManifest = window.document.querySelectorAll("p.pnomeManifest")
 
 function AbrirVideoManifest(){
-    CoverDoVideoManifest.style.display = "none"
-    pnomeManifest.style.display = "none"
+    let CapaDeManifest = window.document.querySelector("img#CapaDeManifest")
+    CapaDeManifest.style.display = "none"
+    let VideoManifest = window.document.querySelector("iframe.VideoManifest")
+    VideoManifest.style.display = "block"
 }
 
-function FecharVideoManifest(){
-    CoverDoVideoManifest.style.display = "block"
-    pnomeManifest.style.display = "block"
+function AbrirVideoSimples(){
+    let CapaDeSimples = window.document.querySelector("img#CapaDeSimples")
+    CapaDeSimples.style.display = "none"
+    let VideoSimples = window.document.querySelector("iframe.VideoSimples")
+    VideoSimples.style.display = "block"
+}
+
+function AbrirVideoUmDia(){
+    let CapaDeUmDia = window.document.querySelector("img#CapaDeUmDia")
+    CapaDeUmDia.style.display = "none"
+    let VideoUmDia = window.document.querySelector("iframe.VideoUmDia")
+    VideoUmDia.style.display = "block"
+}
+
+function AbrirVideoBrigdertons(){
+    let CapaDeBrigdertons = window.document.querySelector("img#CapaDeBrigdertons")
+    CapaDeBrigdertons.style.display = "none"
+    let VideoBrigdertons = window.document.querySelector("iframe.VideoBrigdertons")
+    VideoBrigdertons.style.display = "block"
+}
+
+function AbrirVideowonka(){
+    let CapaDewonkas = window.document.querySelector("img#CapaDewonka")
+    CapaDewonka.style.display = "none"
+    let Videowonka = window.document.querySelector("iframe.Videowonka")
+    Videowonka.style.display = "block"
 }
