@@ -411,6 +411,8 @@
     }
 
     .Destaques_Div iframe{
+        width: 200px;
+        height: 305px;
         display: none;
         border-radius: 10px;
     }
@@ -464,6 +466,23 @@
 
     .Vantagens_divs{
         justify-content: start;
+    }
+
+    /*main - Destaques*/
+
+    .Destaques_Div img{
+        width: 150px;
+        height: 225px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 1s ease-in-out;
+    }
+
+    .Destaques_Div iframe{
+        width: 150px;
+        height: 225px;
+        display: none;
+        border-radius: 10px;
     }
 
 
