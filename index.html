@@ -15,7 +15,7 @@
   <body>
 
     <header>
-        <div onclick="FecharBarraLateral()" class="transparencia"></div>
+        <div onclick="Fechar()" class="transparencia"></div>
         <div class="BarraLateral">
             <span onclick="FecharBarraLateral()" id="IconClose" class="material-symbols-outlined">close</span>
             <ul>
@@ -160,37 +160,15 @@
         <h1>Filmes e Séries em detaque no FlowFlix</h1>
         <p class="ptrailer">Clique na capa e assista o trailer!</p>
         <div class="Destaques_DivGeralDosDestaques">
-
-          <div class="Destaques_Div">
-            <img onclick="AbrirVideoStranger()" id="CapaDeStranger" class="CapaDoVideo" src="./img/Stranger_Things_Temporada_1_Poster.jpg">
-            <iframe class="VideoStranger" id="youtubeVideo" width="200" height="305" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=bdcgtE1wo8kTdIZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div> 
-
-          <div class="Destaques_Div">
-            <img onclick="AbrirVideoManifest()" id="CapaDeManifest" class="CapaDoVideo" src="./img/manifestCapa.jpg">
-            <iframe class="VideoManifest" id="youtubeVideo" src="https://www.youtube.com/embed/I1hNAIzkQWY?si=BzFVmFoAbnEm39_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div> 
-
-          <div class="Destaques_Div">
-            <img onclick="AbrirVideoSimples()" id="CapaDeSimples" class="CapaDoVideo" src="./img/simplismenteacontecefilme.jpg">
-            <iframe class="VideoSimples" id="youtubeVideo" src="https://www.youtube.com/embed/dOMTh9Jd81w?si=E9daTvWlqtQ_qpSK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div> 
-
-          <div class="Destaques_Div">
-            <img onclick="AbrirVideoUmDia()" id="CapaDeUmDia" class="CapaDoVideo" src="./img/Umdia.jpg">
-            <iframe class="VideoUmDia" id="youtubeVideo" src="https://www.youtube.com/embed/1q8zGQbGLsQ?si=wce16IAnJQd7lPth" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div> 
-
-          <div class="Destaques_Div">
-            <img onclick="AbrirVideoBrigdertons()" id="CapaDeBrigdertons" class="CapaDoVideo" src="./img/OsBridgertons.jpg">
-            <iframe class="VideoBrigdertons" id="youtubeVideo" src="https://www.youtube.com/embed/pyi8QAlHR8k?si=JE-TbIsRdB0vPaI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-
-          <div class="Destaques_Div">
-            <img onclick="AbrirVideowonka()" id="CapaDewonka" class="CapaDoVideo" src="./img/wonka.jpg">
-            <iframe class="Videowonka" id="youtubeVideo" src="https://www.youtube.com/embed/8Hpz6B4FODM?si=ft3wEyleCpNs9aVy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </div>
-
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(1)" src="./img/Stranger_Things_Temporada_1_Poster.jpg" alt="Capa da serie Stranger things"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(2)" src="./img/manifestCapa.jpg" alt="Capa da serie Manifest"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(3)" src="./img/simplismenteacontecefilme.jpg" alt="Capa do filme simplismente Acontece"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(4)" src="./img/Umdia.jpg" alt="Capa da Série um dia"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(5)" src="./img/OsBridgertons.jpg" alt="Capa da serie Os brindgertons"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(6)" src="./img/wonka.jpg" alt="Capa do filme Wonka"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(7)" src="./img/FilmeBarbie.jpg" alt="Capa do filme Barbie"></a>
+          <a href="#VideosDeTrailer"><img onclick="AbrirVideo(8)" src="./img/capaDonzela.jpg" alt="Capa do filme donzela"></a>
+          <div id="VideosDeTrailer" class="VideosDeTrailer"></div>
         </div>
       </section>
     </main>
