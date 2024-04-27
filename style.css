@@ -193,6 +193,7 @@
 
     #Vantagens{
         margin-top: 2em;
+        margin-bottom: 2em;
         border-left: 1px solid rgba(255, 255, 255, 0.356);
         color: white;
         display:flex;
@@ -219,6 +220,9 @@
         flex-direction: row;
         align-items: center;
         gap: 10px;
+        width: 90vw;
+        max-width: 1000px;
+        margin: auto;
     }
 
     .Vantagens_Container span{
@@ -267,6 +271,7 @@
 
     #Comentarios{
         margin-top: 2em;
+        margin-bottom: 2em;
         border-left: 1px solid rgba(255, 255, 255, 0.356);
         color: white;
         display:flex;
@@ -294,6 +299,9 @@
         align-items: center;
         gap: 10px;
         justify-content: center;
+        width: 90vw;
+        max-width: 1000px;
+        margin: auto;
     }
 
     .CaixaDosComentarios span{
@@ -362,6 +370,7 @@
 
     #Destaques{
         margin-top: 2em;
+        margin-bottom: 2em;
         background-image: url(./img/pexels-michelangelo-buonarroti-8728560.jpg);
         background-position: center;
         background-size: cover;
@@ -439,7 +448,6 @@
 }
   
 
-
   /*Estilos para dispositivos móveis*/
 @media (max-width: 568px) {
 
@@ -467,6 +475,7 @@
     .Vantagens_divs {
         flex-wrap: nowrap;
         overflow-x: auto;
+        justify-content: start;
     }
 
     .Vantagens_divs::-webkit-scrollbar {
@@ -475,13 +484,6 @@
 
     .Vantagens_Container span{
         display: block;
-    }
-  
-
-    /*main - Vantagens*/
-
-    .Vantagens_divs{
-        justify-content: start;
     }
 
     /*main - Destaques*/
