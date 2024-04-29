@@ -438,7 +438,7 @@
     }
 
     .swiper {
-        width: 280px;
+        width: 270px;
         height: 400px;
     }
 
@@ -464,6 +464,48 @@
     }
 
     /*footer*/
+
+    .pSigaAsPaginas{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.16);
+    }
+
+    .linksexternosFooter{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px 10px;
+    }
+
+    .linksexternosFooter div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .linksexternosFooter i{
+        color: #ac640c;
+        background-color: #002f42;
+        padding: 4px 6px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .linksexternosFooter p{
+        color: #00364b;
+    }
+
+    .linksexternosFooter p:hover{
+        color: #00577a;
+    }
+
+    .descricaoFooter{
+        color: #012E40;
+        text-align: center;
+        padding: 10px;
+        font-size: 13px;
+    }
 }
   
   /* Estilos para tablets*/
@@ -520,4 +562,16 @@
         display: block;
     }
 
+    /*footer*/
+
+    .pSigaAsPaginas{
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .linksexternosFooter{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }

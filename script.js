@@ -63,7 +63,6 @@ function AbrirVideoMobile(m){
     }
 }
 
-
 var swiper = new Swiper(".mySwiper", {
     cssMode: true,
     navigation: {
