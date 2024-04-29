@@ -1,6 +1,7 @@
 var transparencia = window.document.querySelector("div.transparencia")
 var BarraLateral = window.document.querySelector("div.BarraLateral")
 var VideosDeTrailer = window.document.querySelector("div.VideosDeTrailer")
+var VideosDeTrailerMobile = window.document.querySelector("div.trailersMobile")
 
 function AbrirMenuLateral(){
     transparencia.style.display = "block"
@@ -40,3 +41,38 @@ function AbrirVideo(n){
         VideosDeTrailer.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/WvFHERDoBVg?si=CZioeAw5lDfG8Cuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
     }
 }
+
+function AbrirVideoMobile(m){
+    VideosDeTrailerMobile.style.display = 'flex'
+    if(m==1){
+        VideosDeTrailerMobile.innerHTML = `<iframe class="TrailerStrangerThings" height="345" src="https://www.youtube.com/embed/b9EkMc79ZSU?si=Q7eySkU9wqHsGO2l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==2){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/I1hNAIzkQWY?si=qOHSI98ECeENx0yj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==3){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/dOMTh9Jd81w?si=zkEC1DJZsUajeLrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==4){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/1q8zGQbGLsQ?si=IrwTqnCWVEQqs9BA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==5){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/pyi8QAlHR8k?si=fvSzZehbYmCXX6Jq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==6){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/-6hA1BxpdRk?si=flsl6sR-mbwFmWak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==7){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/Ujs1Ud7k49M?si=qv6wbE-UDZhio0PV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }else if(m==8){
+        VideosDeTrailerMobile.innerHTML = `<iframe height="315" src="https://www.youtube.com/embed/WvFHERDoBVg?si=CZioeAw5lDfG8Cuc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+    }
+}
+
+
+var swiper = new Swiper(".mySwiper", {
+    cssMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: true,
+    keyboard: true,
+});

@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/streaming-de-video.png" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
 
   <body>
@@ -170,11 +171,29 @@
           <a href="#VideosDeTrailer"><img onclick="AbrirVideo(8)" src="./img/capaDonzela.jpg" alt="Capa do filme donzela"></a>
           <div id="VideosDeTrailer" class="VideosDeTrailer"></div>
         </div>
+        <!-- Swiper -->
+        <div id="TamplateMobileTrailers" class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#trailersMobile"><img onclick="AbrirVideoMobile(1)" src="./img/Stranger_Things_Temporada_1_Poster.jpg" alt="Capa da serie Stranger things"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobile"><img onclick="AbrirVideoMobile(2)" src="./img/manifestCapa.jpg" alt="Capa da serie Manifest"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobile"><img onclick="AbrirVideoMobile(3)" src="./img/simplismenteacontecefilme.jpg" alt="Capa do filme simplismente AcontrailersMobiletece"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobile"><img onclick="AbrirVideoMobile(4)" src="./img/Umdia.jpg" alt="Capa da Série um dia"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobiler"><img onclick="AbrirVideoMobile(5)" src="./img/OsBridgertons.jpg" alt="Capa da serie Os brindgertons"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobiler"><img onclick="AbrirVideoMobile(6)" src="./img/wonka.jpg" alt="Capa do filme Wonka"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobile"><img onclick="AbrirVideoMobile(7)" src="./img/FilmeBarbie.jpg" alt="Capa do filme Barbie"></a></div>
+            <div class="swiper-slide"><a href="#trailersMobile"><img onclick="AbrirVideoMobile(8)" src="./img/capaDonzela.jpg" alt="Capa do filme donzela"></a></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div id="trailersMobile" class="trailersMobile"></div>
       </section>
     </main>
 
     <footer></footer>
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
