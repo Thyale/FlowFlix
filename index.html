@@ -24,7 +24,7 @@
               <li><a onclick="FecharBarraLateral()" href="#Vantagens">Vantagens</a></li>
                 <li><a onclick="FecharBarraLateral()" href="#Comentarios">Comentários</a></li>
                 <li><a onclick="FecharBarraLateral()" href="#Destaques">Destaques</a></li>
-                <li><a onclick="FecharBarraLateral()" href="#">Dúvidas</a></li>
+                <li><a onclick="FecharBarraLateral()" href="#Duvidas">Dúvidas</a></li>
                 <li><a onclick="FecharBarraLateral()" href="#">Cartões</a></li>
             </ul>
         </div>
@@ -35,7 +35,7 @@
                     <li><a href="#Vantagens">Vantagens</a></li>
                     <li><a href="#Comentarios">Comentários</a></li>
                     <li><a href="#Destaques">Destaques</a></li>
-                    <li><a href="#">Dúvidas</a></li>
+                    <li><a href="#Duvidas">Dúvidas</a></li>
                     <li><a href="#">Cartões</a></li>
                 </ul>
                 <span onclick="AbrirMenuLateral()" id="iconMenu" class="material-symbols-outlined">menu</span>
@@ -189,7 +189,124 @@
         </div>
         <div id="trailersMobile" class="trailersMobile"></div>
       </section>
-      <section id="Duvidas"></section>
+      <section id="Duvidas">
+        <p class="pduvidas">Duvidas</p>
+        <h1>Perguntas Frequentes</h1>
+        <div class="DivGeralDasPerguntas">
+          <div class="DivisorDasDivsPerguntas">
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>O que é o FlowFlix?</p>
+                <img class="imagenIconAbrir1" onclick="AbrirPerguntaDiv(1)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar1" onclick="FecharPerguntaDiv(1)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta1" class="perguntaDiv_Resposta">
+                <p>O FlowFlix é uma plataforma de streaming de vídeo que oferece uma ampla variedade de filmes, séries, documentários e conteúdo original para seus assinantes.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Quais são os tipos de assinatura disponíveis no FlowFlix?</p>
+                <img class="imagenIconAbrir2" onclick="AbrirPerguntaDiv(2)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar2" onclick="FecharPerguntaDiv(2)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta2" class="perguntaDiv_Resposta">
+                <p>Oferecemos diferentes planos de assinatura, como o Plano Básico, Plano Standard e Plano Premium, cada um com benefícios e preços diferentes para atender às necessidades de diferentes usuários.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Quais dispositivos são compatíveis com o FlowFlix?
+                </p>
+                <img class="imagenIconAbrir3" onclick="AbrirPerguntaDiv(3)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar3" onclick="FecharPerguntaDiv(3)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta3" class="perguntaDiv_Resposta">
+                <p>O FlowFlix é compatível com uma variedade de dispositivos, incluindo Smart TVs, computadores, tablets e smartphones. Também oferecemos suporte para dispositivos como Roku, Apple TV, Chromecast e consoles de videogame.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Posso assistir ao conteúdo do FlowFlix offline?
+                </p>
+                <img class="imagenIconAbrir4" onclick="AbrirPerguntaDiv(4)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar4" onclick="FecharPerguntaDiv(4)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta4" class="perguntaDiv_Resposta">
+                <p>Sim, é possível baixar conteúdo selecionado para assistir offline em dispositivos móveis. Basta acessar o aplicativo FlowFlix em seu dispositivo e verificar quais títulos estão disponíveis para download.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Quais idiomas estão disponíveis no FlowFlix?
+                </p>
+                <img class="imagenIconAbrir5" onclick="AbrirPerguntaDiv(5)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar5" onclick="FecharPerguntaDiv(5)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta5" class="perguntaDiv_Resposta">
+                <p>O FlowFlix oferece conteúdo em vários idiomas, incluindo português, inglês, espanhol, francês, entre outros. Além disso, muitos títulos têm legendas e dublagem em diferentes idiomas para uma experiência personalizada.</p>
+              </div>
+            </div>
+          </div>
+          <div class="DivisorDasDivsPerguntas">
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Há restrições de idade para o conteúdo do FlowFlix?
+                </p>
+                <img class="imagenIconAbrir6" onclick="AbrirPerguntaDiv(6)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar6" onclick="FecharPerguntaDiv(6)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta6" class="perguntaDiv_Resposta">
+                <p>Sim, alguns conteúdos podem ter restrições de idade de acordo com sua classificação. Recomendamos que os pais configurem controles parentais para garantir que o conteúdo seja apropriado para cada faixa etária.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Posso compartilhar minha conta do FlowFlix com outras pessoas?
+                </p>
+                <img class="imagenIconAbrir7" onclick="AbrirPerguntaDiv(7)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar7" onclick="FecharPerguntaDiv(7)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta7" class="perguntaDiv_Resposta">
+                <p>O FlowFlix permite o compartilhamento de conta em alguns planos, mas é importante seguir as diretrizes de uso justo e não compartilhar sua conta com muitas pessoas para evitar problemas de qualidade de streaming.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Como faço para cancelar minha assinatura do FlowFlix?
+                </p>
+                <img class="imagenIconAbrir8" onclick="AbrirPerguntaDiv(8)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar8" onclick="FecharPerguntaDiv(8)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta8" class="perguntaDiv_Resposta">
+                <p>Você pode cancelar sua assinatura a qualquer momento acessando as configurações de conta no site ou aplicativo do FlowFlix. Após o cancelamento, você ainda terá acesso ao conteúdo até o final do período de assinatura atual.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>O FlowFlix oferece períodos de teste grátis?
+                </p>
+                <img class="imagenIconAbrir9" onclick="AbrirPerguntaDiv(9)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar9" onclick="FecharPerguntaDiv(9)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta9" class="perguntaDiv_Resposta">
+                <p>Sim, ocasionalmente oferecemos períodos de teste gratuitos para novos usuários experimentarem nossa plataforma. Verifique nossa página inicial para informações sobre ofertas de teste atualmente disponíveis.</p>
+              </div>
+            </div>
+            <div class="perguntaDiv">
+              <div class="perguntaDiv_Titulo">
+                <p>Como posso entrar em contato com o suporte ao cliente do FlowFlix?
+                </p>
+                <img class="imagenIconAbrir10" onclick="AbrirPerguntaDiv(10)" src="./img/sinal-de-seta-para-baixo-para-navegar.png" alt="Seta para baixo">
+                <img id="imagenIconFechar" class="imagenIconFechar10" onclick="FecharPerguntaDiv(10)" src="./img/angulo-da-seta-para-cima.png" alt="Seta para cima">
+              </div>
+              <div id="Pergunta10" class="perguntaDiv_Resposta">
+                <p>Você pode entrar em contato conosco por meio do formulário de contato em nosso site, pelo chat ao vivo disponível no aplicativo ou pelas redes sociais. Nossa equipe de suporte está disponível para ajudar com quaisquer dúvidas ou problemas que você possa ter.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>

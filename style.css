@@ -463,6 +463,95 @@
         width: 100%;
     }
 
+    /*Duvidas*/
+
+    #Duvidas{
+        border-left: 1px solid rgba(255, 255, 255, 0.356);
+        display:flex;
+        flex-direction: column;
+        padding: 20px;
+        margin: 2em 10px 2em 10px;
+    }
+
+    #Duvidas>p{
+        background-color: #003042;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        width: 100px;
+        margin-bottom: 1em;
+        color: white;
+    }
+
+    #Duvidas h1{
+        font-size: 20px;
+        color: white;
+        margin-bottom: 1em;
+    }
+
+    .DivisorDasDivsPerguntas{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .DivGeralDasPerguntas{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .DivisorDasDivsPerguntas{
+        width: 50%;
+    }
+    
+    .perguntaDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .perguntaDiv_Titulo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #002d3f;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 5px 10px;
+        color: rgba(255, 255, 255, 0.753);
+    }
+
+    .perguntaDiv_Titulo img{
+        width: 20px;
+        cursor: pointer;
+        background-color: #df7b00;
+        padding: 4px;
+        border-radius: 10px;
+    }
+
+    .perguntaDiv_Titulo img:hover{
+        background-color: #fa8900;       
+    }
+
+    .perguntaDiv_Resposta{
+        padding: 10px;
+        background-color: #002635;
+        color: rgba(255, 255, 255, 0.396);
+        border-radius: 10px;
+        font-size: 13px;
+
+        display: none;
+    }
+
+    #imagenIconFechar{
+        display: none;
+    }
+
     /*footer*/
 
     .pSigaAsPaginas{
@@ -560,6 +649,16 @@
 
     #TamplateMobileTrailers{
         display: block;
+    }
+
+    /*Perguntas*/
+
+    .DivGeralDasPerguntas{
+        flex-direction: column;
+    }
+
+    .DivisorDasDivsPerguntas{
+        width: 100%;
     }
 
     /*footer*/
