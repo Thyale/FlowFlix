@@ -554,6 +554,19 @@
         display: none;
     }
 
+    /*Plataformas*/
+
+    #Plataformas{
+        display: flex;
+        align-items: center;
+    }
+
+    #Plataformas img{
+        width: 100%;
+        max-width: 700px;
+        margin: auto;
+    }
+
     /*Cartões*/
 
     #Cartoes{
