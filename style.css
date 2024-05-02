@@ -656,12 +656,6 @@
         font-size: 13px;
     }
 }
-  
-  /* Estilos para tablets*/
-@media (max-width: 1100px) {
-}
-  
-
   /*Estilos para dispositivos móveis*/
 @media (max-width: 568px) {
 
