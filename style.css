@@ -321,6 +321,10 @@
         border-radius: 20px;
     }
 
+    .Comentarios_divs_coments p{
+        color: rgba(255, 255, 255, 0.532);
+    }
+
     .Comentarios_divs_coments:hover{
         transform: translate(-3px,-3px);
         transition: transform 0.4s;
